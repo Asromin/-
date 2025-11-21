@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family:
+        "PingFang SC",
+        "Microsoft YaHei",
+        sans-serif;
+    line-height:1.6;
+    color:#333;
+    background-color:#f4f4f4;
+    padding:20px;
+}
+h1{
+    color: #2c3e50;
+    font-size:2em;
+    margin-bottom: 20px;
+    text-align:center;
+}
+h2{
+    color: #34495e;
+    font-size:"1.5em";
+    margin:15px 0;
+    border-left:4px solid #3498db;
+    padding-left:10px
+
+}
+p{
+    margin-bottom: 15px;
+    text-align:justify;
+}
+a{
+    color :#2980b9;
+    text-decoration:none;
+}
+a:hover{
+    color :#e74c3c;
+    text-decoration:underline;
+}
+.container{
+    max-width:800px;
+    margin:0 auto;
+    background:white;
+    padding:20px;
+    border-radius:5px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.blueprint{
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    line-height:"1.6"
+}
+.button{
+    display:inline-block;
+    padding:10px 20px;
+    background:#3498db;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    text-align:center;
+    border:none;
+    cursor:pointer;
+}
+.button:hover{
+    background: #2980b9;
+}
+.button:active{
+    transform: translateY(1px);
+}
